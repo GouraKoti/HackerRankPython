@@ -7,7 +7,7 @@ import re
 T = int(input())
 for i in range(T):
     N = input()
-    res  = re.search('^[+-]?[0-9]*[\.]?[0-9]+$', N)
+    res  = re.search('^[+-]?[0-9]*[\.][0-9]+$', N)
     if res :
         print('True')
     else:
